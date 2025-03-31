@@ -1,0 +1,22 @@
+1-Acordo
+2-abro os olhos
+3-Tiro a coberta
+4-Levanto
+5-Pego o celular
+6Ligo o celular
+7-Vejo o horario
+8-Largo o celular
+9-Vou ao banheiro
+10-Tiro o pijama
+11-Entro no chuveiro
+12-Ligo o chuveiro
+13-Tomo banho
+14-Desligo o chuveiro
+15-Saio do chuveiro
+16-Pego a toalha
+17-Me seco
+18-Deixo a toalha
+19-Pego a minha roupa
+20-Me visto
+21-Vou até a cozinha
+22-Como alguma coisa

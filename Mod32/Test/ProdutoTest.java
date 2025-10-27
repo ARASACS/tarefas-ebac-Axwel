@@ -50,7 +50,7 @@ public class ProdutoTest {
         produtoDB.setNome("Rodrigo Pires");
         Produto produtoUp = produtoDao.alterar(produtoDB);
         assertEquals("Rodrigo Pires", produtoUp.getNome());
-        
+
     }
 
     private Produto criarProduto() {

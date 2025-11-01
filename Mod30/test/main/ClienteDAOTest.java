@@ -1,4 +1,4 @@
-package java1;
+package main;
 
 import main.java.dao.ClienteDAO;
 import main.java.dao.IClienteDAO;

@@ -1,12 +1,12 @@
-package java1;
+package main;
 
-import main.java.dao.IProdutoDAO;
-import main.java.dao.ProdutoDAO;
-import main.java.domain.Produto;
-import main.java.exceptions.DAOException;
-import main.java.exceptions.MaisDeUmRegistroException;
-import main.java.exceptions.TableException;
-import main.java.exceptions.TipoChaveNaoEncontradaException;
+import main.dao.IProdutoDAO;
+import main.dao.ProdutoDAO;
+import main.domain.Produto;
+import main.exceptions.DAOException;
+import main.exceptions.MaisDeUmRegistroException;
+import main.exceptions.TableException;
+import main.exceptions.TipoChaveNaoEncontradaException;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

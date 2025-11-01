@@ -3,10 +3,6 @@
  */
 package main.java.exceptions;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class TipoElementoNaoConhecidoException extends Exception {
 	
 

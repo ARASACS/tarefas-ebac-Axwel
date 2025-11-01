@@ -17,10 +17,7 @@ import main.java.exceptions.TipoChaveNaoEncontradaException;
 import java.sql.*;
 import java.util.*;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class VendaDAO extends GenericDAO<Venda, String> implements IVendaDAO {
 	
 

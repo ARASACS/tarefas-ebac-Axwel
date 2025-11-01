@@ -3,10 +3,7 @@
  */
 package main.java.exceptions;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class TableException extends Exception {
 
 	

@@ -1,22 +1,19 @@
-package java1;
+package main;
 
-import java1.dao.ProdutoDaoMock;
-import main.java.dao.IProdutoDAO;
-import main.java.domain.Produto;
-import main.java.exceptions.DAOException;
-import main.java.exceptions.TipoChaveNaoEncontradaException;
-import main.java.services.IProdutoService;
-import main.java.services.ProdutoService;
+import java.main.dao.ProdutoDaoMock;
+import main.dao.IProdutoDAO;
+import main.domain.Produto;
+import main.exceptions.DAOException;
+import main.exceptions.TipoChaveNaoEncontradaException;
+import main.services.IProdutoService;
+import main.services.ProdutoService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import java.math.BigDecimal;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoServiceTest {
 
 	private IProdutoService produtoService;

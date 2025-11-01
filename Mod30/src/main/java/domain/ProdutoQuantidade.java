@@ -7,10 +7,7 @@ import main.java.anotacao.*;
 
 import java.math.BigDecimal;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 @Tabela("TB_PRODUTO_QUANTIDADE")
 public class ProdutoQuantidade {
 	

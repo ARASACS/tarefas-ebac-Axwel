@@ -9,10 +9,7 @@ import main.java.domain.ProdutoQuantidade;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoQuantidadeFactory {
 
 	public static ProdutoQuantidade convert(ResultSet rs) throws SQLException {

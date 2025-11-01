@@ -9,10 +9,7 @@ import main.java.domain.Cliente;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ClienteDAO extends GenericDAO<Cliente, Long> implements IClienteDAO {
 
 	public ClienteDAO() {

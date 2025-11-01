@@ -10,10 +10,6 @@ import main.java.exceptions.MaisDeUmRegistroException;
 import main.java.exceptions.TableException;
 import main.java.services.generic.GenericService;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ClienteService extends GenericService<Cliente, Long> implements IClienteService {
 	
 	//private IClienteDAO clienteDAO;

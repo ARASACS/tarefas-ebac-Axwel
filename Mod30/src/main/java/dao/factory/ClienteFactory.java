@@ -8,10 +8,7 @@ import main.java.domain.Cliente;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ClienteFactory {
 
 	public static Cliente convert(ResultSet rs) throws SQLException {

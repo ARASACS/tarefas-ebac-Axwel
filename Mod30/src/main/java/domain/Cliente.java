@@ -6,10 +6,7 @@ package main.java.domain;
 import main.java.anotacao.*;
 import main.java.dao.Persistente;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 @Tabela("TB_CLIENTE")
 public class Cliente implements Persistente {
 	

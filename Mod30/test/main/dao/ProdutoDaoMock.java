@@ -1,6 +1,4 @@
-package java1.dao; /**
- * 
- */
+package main.dao;
 
 import main.java.dao.IProdutoDAO;
 import main.java.domain.Produto;
@@ -8,10 +6,6 @@ import main.java.exceptions.TipoChaveNaoEncontradaException;
 
 import java.util.Collection;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ProdutoDaoMock implements IProdutoDAO {
 
 	@Override

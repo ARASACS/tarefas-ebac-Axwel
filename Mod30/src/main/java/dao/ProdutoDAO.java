@@ -9,10 +9,7 @@ import main.java.domain.Produto;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class ProdutoDAO extends GenericDAO<Produto, String> implements IProdutoDAO {
 	
 	public ProdutoDAO() {

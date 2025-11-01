@@ -1,7 +1,7 @@
 /**
  * 
  */
-package java1;
+package main;
 
 import main.java.dao.*;
 import main.java.dao.generic.jdbc.ConnectionFactory;
@@ -28,10 +28,7 @@ import java.util.Collection;
 
 import static org.junit.Assert.*;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class VendaDAOTest {
 	
 	private IVendaDAO vendaDao;

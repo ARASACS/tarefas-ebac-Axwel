@@ -1,8 +1,8 @@
-package java1.dao;
+package main.dao;
 
-import main.java.dao.IClienteDAO;
-import main.java.domain.Cliente;
-import main.java.exceptions.TipoChaveNaoEncontradaException;
+import main.dao.IClienteDAO;
+import main.domain.Cliente;
+import main.exceptions.TipoChaveNaoEncontradaException;
 
 import java.util.Collection;
 

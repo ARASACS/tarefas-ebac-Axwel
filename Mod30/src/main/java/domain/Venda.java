@@ -12,10 +12,6 @@ import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 
-/**
- * @author rodrigo.pires
- *
- */
 @Tabela("TB_VENDA")
 public class Venda implements Persistente {
 	

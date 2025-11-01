@@ -13,10 +13,6 @@ import main.java.exceptions.TipoChaveNaoEncontradaException;
 import java.io.Serializable;
 import java.util.Collection;
 
-/**
- * @author rodrigo.pires
- *
- */
 public abstract class GenericService<T extends Persistente, E extends Serializable> 
 	implements IGenericService<T, E> {
 	

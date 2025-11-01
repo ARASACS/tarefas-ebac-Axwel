@@ -8,10 +8,6 @@ import main.java.dao.Persistente;
 
 import java.math.BigDecimal;
 
-/**
- * @author rodrigo.pires
- *
- */
 @Tabela("TB_PRODUTO")
 public class Produto implements Persistente {
 	

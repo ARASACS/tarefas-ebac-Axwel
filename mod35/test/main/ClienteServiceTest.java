@@ -1,19 +1,17 @@
-package java1; /**
- * 
- */
+package main;
 
 
-import main.java.dao.IClienteDAO;
-import main.java.domain.Cliente;
-import main.java.exceptions.DAOException;
-import main.java.exceptions.TipoChaveNaoEncontradaException;
-import main.java.services.ClienteService;
-import main.java.services.IClienteService;
+import main.dao.IClienteDAO;
+import main.domain.Cliente;
+import main.exceptions.DAOException;
+import main.exceptions.TipoChaveNaoEncontradaException;
+import main.services.ClienteService;
+import main.services.IClienteService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java1.dao.ClienteDaoMock;
+import java.main.dao.ClienteDaoMock;
 public class ClienteServiceTest {
 	
 	private IClienteService clienteService;

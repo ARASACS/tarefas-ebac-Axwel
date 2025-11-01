@@ -8,10 +8,6 @@ import main.java.domain.Produto;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
 public class ProdutoFactory {
 
 	

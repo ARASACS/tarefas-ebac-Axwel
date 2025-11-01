@@ -7,10 +7,7 @@ import main.java.domain.Cliente;
 import main.java.exceptions.DAOException;
 import main.java.services.generic.IGenericService;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public interface IClienteService extends IGenericService<Cliente, Long> {
 
 //	Boolean cadastrar(Cliente cliente) throws TipoChaveNaoEncontradaException;

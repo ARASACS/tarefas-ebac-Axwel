@@ -10,10 +10,7 @@ import main.java.domain.Venda.Status;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @author rodrigo.pires
- *
- */
+
 public class VendaFactory {
 
 	public static Venda convert(ResultSet rs) throws SQLException {
